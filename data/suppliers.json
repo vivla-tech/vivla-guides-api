@@ -1,0 +1,4 @@
+[
+  { "name": "SupplierOne", "website": "https://supplier1.com", "contact_email": "hello@supplier1.com", "phone": "+34 600 000 001" },
+  { "name": "SupplierTwo", "website": "https://supplier2.com", "contact_email": "support@supplier2.com", "phone": "+34 600 000 002" }
+]
