@@ -11,7 +11,15 @@
     "migrate": "sequelize db:migrate",
     "seed": "sequelize db:seed:all",
     "reset:db": "sequelize db:migrate:undo:all && sequelize db:migrate && sequelize db:seed:all",
-    "import:json": "node scripts/seed-from-json.js"
+    "import:json": "node scripts/seed-from-json.js",
+    "migrate:homes": "node scripts/migrate-homes-from-airtable.js",
+    "migrate:guides": "node scripts/migrate-guides-from-airtable.js",
+    "migrate:amenities": "node scripts/migrate-amenities-from-airtable.js",
+    "migrate:categories": "node scripts/migrate-categories-from-airtable.js",
+    "migrate:inventory": "node scripts/migrate-inventory-from-airtable.js",
+    "consolidate:amenities": "node scripts/consolidate-amenities.js",
+    "report:amenities": "node scripts/report-amenities-diff.js",
+    "report:inventory": "node scripts/report-inventory-diff.js"
   },
   "engines": {
     "node": ">=18"
