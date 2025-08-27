@@ -6,9 +6,9 @@ import url from 'url';
 
 dotenv.config();
 
-import sequelize from '../../src/config/database.js';
-import { Amenity, Brand, Category } from '../../src/models/index.js';
-import { uploadFromUrl } from '../../src/services/storage.service.js';
+import sequelize from '../src/config/database.js';
+import { Amenity, Brand, Category } from '../src/models/index.js';
+import { uploadFromUrl } from '../src/services/storage.service.js';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
