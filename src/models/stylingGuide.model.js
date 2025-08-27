@@ -5,6 +5,7 @@ export default (sequelize, DataTypes) => {
         title: { type: DataTypes.STRING, allowNull: false },
         reference_photo_url: { type: DataTypes.STRING },
         qr_code_url: { type: DataTypes.STRING },
+        image_urls: { type: DataTypes.JSONB },
         created_at: { type: DataTypes.DATE, defaultValue: DataTypes.NOW },
         updated_at: { type: DataTypes.DATE, defaultValue: DataTypes.NOW },
     }, {
