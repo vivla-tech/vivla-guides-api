@@ -1,0 +1,9 @@
+{
+    "porche": "exterior",
+    "cajones interiores cocina": "cocina",
+    "cajones interiores": "cocina",
+    "terraza": "exterior",
+    "salon comedor": "salón",
+    "salon planta": "salón",
+    "salon principal": "salón"
+}
