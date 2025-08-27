@@ -20,7 +20,8 @@
     "consolidate:amenities": "node scripts/maintenance/consolidate-amenities.js",
     "report:amenities": "node scripts/maintenance/report-amenities-diff.js",
     "report:inventory": "node scripts/maintenance/report-inventory-diff.js",
-    "report:room-types": "node scripts/maintenance/report-room-types.js"
+    "report:room-types": "node scripts/maintenance/report-room-types.js",
+    "migrate:room-types": "node scripts/migrate-room-types.js"
   },
   "engines": {
     "node": ">=18"
