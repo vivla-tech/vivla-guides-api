@@ -5,8 +5,8 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-import sequelize from '../src/config/database.js';
-import { Brand, Supplier, RoomType } from '../src/models/index.js';
+import sequelize from '../../src/config/database.js';
+import { Brand, Supplier, RoomType } from '../../src/models/index.js';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const dataDir = path.resolve(__dirname, '../data');

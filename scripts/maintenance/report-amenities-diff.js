@@ -1,8 +1,8 @@
 import https from 'https';
 import querystring from 'querystring';
 import dotenv from 'dotenv';
-import sequelize from '../src/config/database.js';
-import { Amenity, Brand, Category } from '../src/models/index.js';
+import sequelize from '../../src/config/database.js';
+import { Amenity, Brand, Category } from '../../src/models/index.js';
 
 dotenv.config();
 

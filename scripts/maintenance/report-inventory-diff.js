@@ -7,8 +7,8 @@ import url from 'url';
 
 dotenv.config();
 
-import sequelize from '../src/config/database.js';
-import { Home, Room, Amenity, Brand, Category, HomeInventory } from '../src/models/index.js';
+import sequelize from '../../src/config/database.js';
+import { Home, Room, Amenity, Brand, Category, HomeInventory } from '../../src/models/index.js';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
