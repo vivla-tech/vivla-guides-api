@@ -23,3 +23,15 @@ export const decimalField = (field, required = false) => [
 export const uuidField = (field, required = false) => [
     required ? body(field).isUUID().withMessage(`${field} debe ser UUID`) : body(field).optional().isUUID(),
 ];
+
+// URL string validator (TEXT length, no hard max). Requires protocol.
+export const urlField = (field, required = false) => [
+    required ? body(field).isString().notEmpty().withMessage(`${field} es requerido`) : body(field).optional().isString(),
+    body(field).optional().isURL({ require_protocol: true }).withMessage(`${field} debe ser URL válida`),
+];
+
+// Array of URL strings validator
+export const urlArrayField = (field, required = false) => [
+    required ? body(field).isArray().withMessage(`${field} debe ser un array`) : body(field).optional().isArray(),
+    body(`${field}.*`).optional().isString().isURL({ require_protocol: true }).withMessage(`${field} debe contener URLs válidas`),
+];

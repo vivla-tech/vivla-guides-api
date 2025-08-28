@@ -3,7 +3,7 @@ import { makeCrudController } from '../../controllers/factory.js';
 import CrudService from '../../services/crudService.js';
 import { ApplianceGuide, Home } from '../../models/index.js';
 import { validate } from '../../middlewares/validate.js';
-import { idParam, paginationQuery, stringField, uuidField } from '../../validators/common.js';
+import { idParam, paginationQuery, stringField, uuidField, urlField, urlArrayField } from '../../validators/common.js';
 import createError from 'http-errors';
 
 const router = Router();
@@ -17,9 +17,9 @@ router.post('/', [
     ...uuidField('brand_id'),
     ...stringField('model'),
     ...stringField('brief_description'),
-    ...uuidField('image_id'),
-    ...uuidField('pdf_guide_id'),
-    ...uuidField('video_guide_id'),
+    ...urlArrayField('image_urls'),
+    ...urlField('pdf_url'),
+    ...urlField('video_url'),
     ...stringField('quick_use_bullets', false, 5000),
     ...stringField('maintenance_bullets', false, 5000),
 ], validate, controller.create);
@@ -29,9 +29,9 @@ router.put('/:id', [
     ...uuidField('brand_id'),
     ...stringField('model'),
     ...stringField('brief_description'),
-    ...uuidField('image_id'),
-    ...uuidField('pdf_guide_id'),
-    ...uuidField('video_guide_id'),
+    ...urlArrayField('image_urls'),
+    ...urlField('pdf_url'),
+    ...urlField('video_url'),
     ...stringField('quick_use_bullets', false, 5000),
     ...stringField('maintenance_bullets', false, 5000),
 ], validate, controller.update);
