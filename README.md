@@ -81,3 +81,141 @@ Notas:
 - Todos los scripts aceptan flags `--base/--table/--view` para override puntuales.
 - Idempotencia: los scripts usan findOrCreate y `--update` para actualizar existentes.
 - Media: se sube a Firebase; si usas `--reupload-media`, se fuerza la actualización de imágenes.
+
+### API - Nuevos campos y filtros
+
+Endpoints relevantes:
+
+- Styling Guides
+  - GET `/api/v1/styling-guides?home_id=<uuid>` — lista filtrada por casa (usa `Room.home_id`)
+  - Campos: `reference_photo_url` (TEXT), `qr_code_url` (TEXT), `image_urls` (JSON array de URLs)
+
+- Playbooks
+  - GET `/api/v1/playbooks?home_id=<uuid>` — lista filtrada por casa (usa `Room.home_id`)
+
+- Appliance Guides
+  - GET `/api/v1/appliance-guides/by-home/:homeId` — guías vinculadas a una casa
+  - POST `/api/v1/appliance-guides/link` — vincula guía a casa (idempotente)
+  - DELETE `/api/v1/appliance-guides/link` — desvincula guía de casa
+  - Campos: `image_urls` (JSON array de URLs), `pdf_url` (URL), `video_url` (URL)
+
+Ejemplos:
+
+```bash
+# Filtrar styling_guides por home
+curl -s "http://localhost:3000/api/v1/styling-guides?home_id=<HOME_UUID>&pageSize=10"
+
+# Filtrar playbooks por home
+curl -s "http://localhost:3000/api/v1/playbooks?home_id=<HOME_UUID>&pageSize=10"
+
+# Listar guías de electrodomésticos por home
+curl -s "http://localhost:3000/api/v1/appliance-guides/by-home/<HOME_UUID>"
+
+# Vincular guía a home
+curl -s -X POST "http://localhost:3000/api/v1/appliance-guides/link" \
+  -H 'Content-Type: application/json' \
+  --data '{"home_id":"<HOME_UUID>","appliance_guide_id":"<GUIDE_UUID>"}'
+
+# Desvincular guía de home
+curl -s -X DELETE "http://localhost:3000/api/v1/appliance-guides/link" \
+  -H 'Content-Type: application/json' \
+  --data '{"home_id":"<HOME_UUID>","appliance_guide_id":"<GUIDE_UUID>"}'
+```
+
+Notas técnicas:
+- Validación: URLs con protocolo obligatorio; arrays de URLs aceptados.
+- Constraint: `home_appliance_guides(home_id, appliance_guide_id)` es UNIQUE (evita duplicados).
+
+### API - Endpoints CRUD por recurso
+
+Formato general:
+- Listado: `GET /api/v1/<recurso>` (pag: `page`, `pageSize`)
+- Detalle: `GET /api/v1/<recurso>/:id`
+- Crear: `POST /api/v1/<recurso>`
+- Actualizar: `PUT /api/v1/<recurso>/:id`
+- Borrar: `DELETE /api/v1/<recurso>/:id`
+ - Filtros: para recursos basados en `Room` (p. ej., `styling-guides`, `playbooks`) se admite `?home_id=<uuid>` que filtra por `Room.home_id`.
+
+Recursos y rutas base:
+- Homes: `/api/v1/homes`
+- Rooms: `/api/v1/rooms`
+- Rooms Type: `/api/v1/rooms-type`
+- Brands: `/api/v1/brands`
+- Categories: `/api/v1/categories`
+- Suppliers: `/api/v1/suppliers`
+- Amenities: `/api/v1/amenities`
+- Home Inventory: `/api/v1/home-inventory`
+- Technical Plans: `/api/v1/technical-plans`
+- Appliance Guides: `/api/v1/appliance-guides`
+- Styling Guides: `/api/v1/styling-guides`
+- Playbooks: `/api/v1/playbooks`
+
+Paginación:
+```bash
+curl -s "http://localhost:3000/api/v1/amenities?page=1&pageSize=20"
+```
+
+Filtro por home_id (recursos basados en Room):
+```bash
+curl -s "http://localhost:3000/api/v1/styling-guides?home_id=<HOME_UUID>&pageSize=10"
+curl -s "http://localhost:3000/api/v1/playbooks?home_id=<HOME_UUID>&pageSize=10"
+```
+
+Detalle:
+```bash
+curl -s "http://localhost:3000/api/v1/homes/<UUID>"
+```
+
+Crear ejemplo (amenity mínimo):
+```bash
+curl -s -X POST "http://localhost:3000/api/v1/amenities" \
+  -H 'Content-Type: application/json' \
+  --data '{"name":"Ejemplo","brand_id":null,"category_id":null}'
+```
+
+Actualizar:
+```bash
+curl -s -X PUT "http://localhost:3000/api/v1/rooms/<UUID>" \
+  -H 'Content-Type: application/json' \
+  --data '{"name":"Dormitorio principal"}'
+```
+
+Eliminar:
+```bash
+curl -s -X DELETE "http://localhost:3000/api/v1/brands/<UUID>"
+```
+
+### Formato de respuesta
+
+- Listado (con paginación):
+
+```json
+{
+  "success": true,
+  "data": [ { /* entidad */ }, { /* ... */ } ],
+  "meta": { "page": 1, "pageSize": 20, "total": 123, "totalPages": 7 }
+}
+```
+
+- Detalle / Creación / Actualización:
+
+```json
+{
+  "success": true,
+  "data": { /* entidad */ }
+}
+```
+
+- Error de validación (422):
+
+```json
+{
+  "success": false,
+  "error": {
+    "message": "Datos inválidos",
+    "details": [
+      { "field": "campo", "message": "motivo" }
+    ]
+  }
+}
+```
