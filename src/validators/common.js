@@ -28,6 +28,10 @@ export const uuidQuery = (field, required = false) => [
     required ? query(field).isUUID().withMessage(`${field} debe ser UUID`) : query(field).optional().isUUID(),
 ];
 
+export const uuidParam = (field) => [
+    param(field).isUUID().withMessage(`${field} debe ser UUID válido`),
+];
+
 // URL string validator (TEXT length, no hard max). Requires protocol.
 export const urlField = (field, required = false) => [
     required ? body(field).isString().notEmpty().withMessage(`${field} es requerido`) : body(field).optional().isString(),

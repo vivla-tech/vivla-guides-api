@@ -3,7 +3,7 @@ import { makeCrudController } from '../../controllers/factory.js';
 import CrudService from '../../services/crudService.js';
 import { ApplianceGuide, Home } from '../../models/index.js';
 import { validate } from '../../middlewares/validate.js';
-import { idParam, paginationQuery, stringField, uuidField, urlField, urlArrayField } from '../../validators/common.js';
+import { idParam, paginationQuery, stringField, uuidField, urlField, urlArrayField, uuidParam } from '../../validators/common.js';
 import createError from 'http-errors';
 
 const router = Router();
@@ -35,8 +35,6 @@ router.put('/:id', [
     ...stringField('quick_use_bullets', false, 5000),
     ...stringField('maintenance_bullets', false, 5000),
 ], validate, controller.update);
-router.delete('/:id', idParam, validate, controller.remove);
-
 // Vincular guía a home
 router.post('/link', [
     ...uuidField('home_id', true),
@@ -47,7 +45,10 @@ router.post('/link', [
         const home = await Home.findByPk(home_id);
         const guide = await ApplianceGuide.findByPk(appliance_guide_id);
         if (!home || !guide) throw createError(404, 'Home o guía no encontrada');
-        await home.addAppliance_guide(guide); // Sequelize pluralization: will map by through
+        const alreadyLinked = await home.hasAppliance_guide(guide);
+        if (!alreadyLinked) {
+            await home.addAppliance_guide(guide);
+        }
         return res.json({ success: true });
     } catch (err) { return next(err); }
 });
@@ -68,7 +69,7 @@ router.delete('/link', [
 });
 
 // Listar guías de un home
-router.get('/by-home/:homeId', [uuidField('homeId', true)], validate, async (req, res, next) => {
+router.get('/by-home/:homeId', [...uuidParam('homeId')], validate, async (req, res, next) => {
     try {
         const home = await Home.findByPk(req.params.homeId);
         if (!home) throw createError(404, 'Home no encontrado');
@@ -76,5 +77,8 @@ router.get('/by-home/:homeId', [uuidField('homeId', true)], validate, async (req
         return res.json({ success: true, data: guides });
     } catch (err) { return next(err); }
 });
+
+// Eliminar guía por id (colocado tras rutas específicas para evitar colisiones con '/link')
+router.delete('/:id', idParam, validate, controller.remove);
 
 export default router;
