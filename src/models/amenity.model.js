@@ -5,7 +5,6 @@ export default (sequelize, DataTypes) => {
         category_id: { type: DataTypes.UUID },
         brand_id: { type: DataTypes.UUID },
         reference: { type: DataTypes.STRING },
-        amenity_type: { type: DataTypes.STRING },
         model: { type: DataTypes.STRING },
         description: { type: DataTypes.TEXT },
         base_price: { type: DataTypes.DECIMAL },

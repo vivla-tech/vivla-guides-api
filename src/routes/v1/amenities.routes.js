@@ -15,22 +15,20 @@ router.post('/', [
     ...stringField('name', true),
     ...uuidField('category_id'),
     ...uuidField('brand_id'),
-    ...stringField('amenity_type'),
+    ...stringField('reference'),
     ...stringField('model'),
     ...stringField('description', false, 5000),
     ...decimalField('base_price'),
-    ...uuidField('default_image_id'),
 ], validate, controller.create);
 router.put('/:id', [
     ...idParam,
     ...stringField('name'),
     ...uuidField('category_id'),
     ...uuidField('brand_id'),
-    ...stringField('amenity_type'),
+    ...stringField('reference'),
     ...stringField('model'),
     ...stringField('description', false, 5000),
     ...decimalField('base_price'),
-    ...uuidField('default_image_id'),
 ], validate, controller.update);
 router.delete('/:id', idParam, validate, controller.remove);
 

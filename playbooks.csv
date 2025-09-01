@@ -1,0 +1,253 @@
+id,room_id,type,title,estimated_time,tasks,materials,created_at,updated_at
+2afd4a41-b849-439b-ac90-43cc1f44e974,10d5f353-7d88-4f06-aa83-efcbf90c2b9d,styling,Salón principal,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Mesa auxiliar trasera despejada con el altavoz cargado
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá",\N,2025-08-27 16:12:38.22+02,2025-08-27 16:12:38.22+02
+85ef6300-d251-478b-8e7c-7461ab7fc0bd,e7fa5d5e-208b-4649-aac4-17dd244dd7b3,styling,Cocina encimera,\N,"- Encimera despejada con electrodomésticos enchufados en una esquina
+- Tablero madera y utensilios en la otra esquina
+- Mesa de comedor despejada con dos bowls decorativos",\N,2025-08-27 16:12:38.232+02,2025-08-27 16:12:38.232+02
+04e99e29-b8c7-4178-b208-f1e218cfa91e,b3513278-dee1-419d-b46c-c44892874ec5,styling,Cajones interiores cocina,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.24+02,2025-08-27 16:12:38.24+02
+14fcacd7-f9d9-408f-a100-e2448bd76511,334c73f9-990e-45de-9021-89e5f9b90474,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.252+02,2025-08-27 16:12:38.252+02
+114ed060-7a7b-4403-8636-8a30a352d0e8,4511fb7d-8e3e-4001-bd33-05e4e8c37d02,styling,Baños,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la escalera de cada baño",\N,2025-08-27 16:12:38.258+02,2025-08-27 16:12:38.258+02
+37957e50-f363-4720-a7eb-192c6ddabb00,3d21246d-7f3b-4263-a502-a3b2eb2df97e,styling,Terraza delantera planta baja,\N,"- Un cojín de rafia por cada sofá
+- cesto de mimbre y ceniceros sobre la mesa auxiliar
+- Jarrones decorativos en una esquina
+- Sofás colocados en forma de U paralelos a la ventana",\N,2025-08-27 16:12:38.264+02,2025-08-27 16:12:38.264+02
+1481f0ec-b713-4553-9cea-602cb02f38e1,231282f7-e442-4b81-91ea-8af65854d288,styling,Terraza trasera planta baja,\N,"- Paella y bbq en el exterior
+- Hamacas con el colchón puesto
+- Mesa exterior (no está en la foto) despejada con sillas recogidas",\N,2025-08-27 16:12:38.268+02,2025-08-27 16:12:38.268+02
+73b445d9-3554-4bbb-bef7-7cb90ff051a5,4ded0009-ada9-45ba-8955-fb214a69d8bf,styling,Terraza planta alta,\N,- Sofás orientados al mar,\N,2025-08-27 16:12:38.275+02,2025-08-27 16:12:38.275+02
+aa5a5517-0700-4bcb-8066-ca9900b76888,9bc89d09-0cfc-45c4-be85-0911e51a239c,styling,Salón planta baja,\N,"- Plaid doblado en un lado del sofá
+- Las dos mesillas juntas centradas con el sofá
+- Cuatro cojines sobre el sofá
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.28+02,2025-08-27 16:12:38.281+02
+56a1a580-2a43-431d-b637-1f1ea69d023b,c2b64b48-b3f5-46ca-a401-992570fe64c3,styling,Salón - Comedor,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá",\N,2025-08-27 16:12:38.286+02,2025-08-27 16:12:38.286+02
+808a0c9e-52b1-4840-b6ce-8144c46544c5,f6de0c51-d790-4343-9494-b23ae6eb68b9,styling,Cocina-encimera,\N,"- Encimera despejada con electrodomésticos enchufados en una esquina
+- Tablero madera y utensilios en la misma esquina
+- Mesa de comedor alta despejada con un bowls azul decorativos
+- Cafetera en la otra esquina
+- Elementos de limpieza guardados detrás del grifo",\N,2025-08-27 16:12:38.291+02,2025-08-27 16:12:38.291+02
+2a6e4578-9739-41d4-a9d6-8e7186758e7c,6b06b885-4022-4128-941a-908783df10b2,styling,Cajones interiores de cocina,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.296+02,2025-08-27 16:12:38.296+02
+06c884dd-93d6-4d05-9371-c52c2b52152e,2ab3a0f7-34f7-4b99-94c3-eced38e90176,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas """,\N,2025-08-27 16:12:38.3+02,2025-08-27 16:12:38.3+02
+0afafe57-e18c-446f-816c-fdd10f1f2e08,bc5e267e-d67d-4396-8bf5-4eaa257e2162,styling,Baño,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la entrada de la ducha",\N,2025-08-27 16:12:38.305+02,2025-08-27 16:12:38.305+02
+5e603e88-ff3e-4cc0-bee5-fcaa4e4fb3df,ed83a961-3e59-46e0-8dd2-8ddac2f0fcbd,styling,Porche,\N,"- Paella y bbq en el exterior
+- Mesa exterior despejada con sillas recogidas
+- Jarrón como centro de mesa
+- Velas y cenicero como centro de mesas auxiliares",\N,2025-08-27 16:12:38.31+02,2025-08-27 16:12:38.31+02
+98b4593f-d312-4c1d-b956-103dbf076854,da161939-90ac-4194-9572-606f91179c34,styling,Salón,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Mesa de comedor trasera despejada con el jarrón en el centro
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá",\N,2025-08-27 16:12:38.313+02,2025-08-27 16:12:38.313+02
+9efc2935-3c6d-4440-b419-9469109ac07d,39465f8e-9aaf-4c69-91e4-eb12b6c43486,styling,Cocina encimera,\N,"- Encimera despejada con electrodomésticos enchufados en una esquina
+- Tablero madera y utensilios en la otra esquina
+- Libros apoyados en la esquina de la barra de cocina",\N,2025-08-27 16:12:38.317+02,2025-08-27 16:12:38.317+02
+c3e23a80-1081-4207-9ef7-34ae8659c2e8,1b4357f9-80fe-4661-b2e7-75e1c64d1774,styling,Cajones interiores cocina,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.322+02,2025-08-27 16:12:38.322+02
+1fa1f78b-337f-4605-ba78-a2b19460c2a4,0a19ca05-e70f-4fd0-8a2a-0c089e288e71,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.325+02,2025-08-27 16:12:38.326+02
+7588bbe4-c185-4244-b487-1a088ca9afb3,30762578-53c7-4c29-bbd0-b6279a1afd2b,styling,Baños,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la entrada de la ducha",\N,2025-08-27 16:12:38.33+02,2025-08-27 16:12:38.33+02
+c38493f2-d3ed-4cb4-84a3-688c4ebb2153,2efee580-53a0-4da6-b234-dcd2f9f48b59,styling,Porche,\N,"- Paella y bbq en el exterior
+- Mesa exterior despejada con sillas recogidas
+- Dos jarrones y una vela como centro de mesa
+- Velas y cenicero como centro de mesas auxiliares
+- Cojines con acento como en la imagen",\N,2025-08-27 16:12:38.334+02,2025-08-27 16:12:38.334+02
+bae9bfd7-34f1-4a04-b0fb-5e27402886a1,292b8f33-0825-4620-bbc3-61196c761aec,styling,Salón,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá
+- Plaids sobre el lateral del sofá
+- Pieles sobre las sillas de comedor",\N,2025-08-27 16:12:38.338+02,2025-08-27 16:12:38.338+02
+72f37363-c0cc-4342-8ba8-696f5f9dc01f,05daddcc-dab6-4ecf-9a52-635b1514c7e2,styling,Cocina encimera,\N,"- Encimera despejada con electrodomésticos enchufados en una esquina
+- Tablero madera y utensilios en la otra esquina",\N,2025-08-27 16:12:38.342+02,2025-08-27 16:12:38.342+02
+fc00a79d-9fd6-43da-9b9b-8b7fe5fb0f79,b3a2069a-a995-4bac-be99-8c05be9222a5,styling,Cajones interiores,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.346+02,2025-08-27 16:12:38.346+02
+48d4ae87-a2ab-48ad-884e-87cfe5760dd4,2f95ae84-fdd9-4b6d-8b79-7b831d9261a3,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.35+02,2025-08-27 16:12:38.35+02
+519046d9-1cc0-490c-9a6e-260b6c0816e7,bb48f313-a4d9-46ab-ba21-b9874d55cba3,styling,Baño,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la entrada de la ducha",\N,2025-08-27 16:12:38.355+02,2025-08-27 16:12:38.355+02
+f7820041-9bce-40a0-86b6-3acd8f99e803,b6fbf153-28cf-425d-a42a-a01ad10b07b1,styling,Salón planta 0,\N,"- Disposición de los cojines como en la imagen
+- Plaids sobre el lateral del sofá",\N,2025-08-27 16:12:38.361+02,2025-08-27 16:12:38.361+02
+84be4bec-0055-4975-ae4c-ad236a12b617,ac2317f2-da6f-472e-945f-b130ed5df388,styling,Salón,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá
+- Plaids sobre el lateral del sofá
+- Pieles sobre las sillas de comedor",\N,2025-08-27 16:12:38.368+02,2025-08-27 16:12:38.368+02
+768f45f7-62bb-40ed-865d-a189983b7919,5ee0b2ed-959b-4e72-8f9d-c030c31b19b7,styling,Cocina encimera,\N,"- Encimera despejada con electrodomésticos enchufados en una esquina
+- Tablero madera y utensilios en la otra esquina",\N,2025-08-27 16:12:38.373+02,2025-08-27 16:12:38.373+02
+7b31aadc-1cb2-4c53-a6da-58d0bd790037,b21fba77-6ade-47bc-b7ed-e4f5f59f79fa,styling,Cajones interiores,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.377+02,2025-08-27 16:12:38.377+02
+e2ab705e-9cee-4ab2-8ddf-e830dbfe994c,4313111b-90d0-482f-a1a1-7dcf47100182,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.383+02,2025-08-27 16:12:38.383+02
+095cf702-a8ac-4d5c-a60c-3fc2b9f0baa8,d1ca1788-68f2-4543-84ed-73647365fb4a,styling,Baño,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la entrada de la ducha",\N,2025-08-27 16:12:38.387+02,2025-08-27 16:12:38.387+02
+e0977f05-537a-4fc5-8bd7-201b4c80d378,c6fdb01e-a772-40ea-b751-1b70dd9c30e1,styling,Salón,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá
+- Plaids sobre el lateral del sofá
+- Pieles sobre las sillas de comedor",\N,2025-08-27 16:12:38.392+02,2025-08-27 16:12:38.393+02
+a27c0c74-b9bb-48ee-8ebb-1e1bd171132b,4cb628c5-771b-4c3f-91d3-c7bf94fe36a8,styling,Cocina encimera,\N,"- Encimera despejada con electrodomésticos enchufados en una esquina
+- Tablero madera y utensilios en la otra esquina",\N,2025-08-27 16:12:38.396+02,2025-08-27 16:12:38.396+02
+590379c0-b83f-4f8d-9298-2a2195ce6e34,6e26bda6-9bc9-46a7-9613-66aadfbdd0cb,styling,Cajones interiores,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.401+02,2025-08-27 16:12:38.401+02
+e594858e-8357-487c-a67c-b7213c2d0449,9bc43dee-b98c-4c79-82c3-dc3c8182f28f,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.405+02,2025-08-27 16:12:38.405+02
+cc45c4ed-d585-4e77-8415-ab2ac8d8ebc8,7467d282-1d39-4e1c-b253-66e9d65a5715,styling,Baño,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la entrada de la ducha",\N,2025-08-27 16:12:38.41+02,2025-08-27 16:12:38.41+02
+a6de02c1-029d-4c40-adf2-5734658f053c,ddfe30b7-1884-41d2-817d-ad305d4affe5,styling,Salón,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá
+- Plaids sobre el lateral del sofá
+- Pieles sobre las sillas de comedor",\N,2025-08-27 16:12:38.414+02,2025-08-27 16:12:38.414+02
+b5c90bf4-2614-423c-abb3-861a844e77af,e834c28f-844f-4323-80a6-cb1591f27928,styling,Cocina encimera,\N,"- Encimera despejada con electrodomésticos enchufados en ambas esquina
+- Rollo de cocina y deco varias pegado a la pared de la isla",\N,2025-08-27 16:12:38.418+02,2025-08-27 16:12:38.418+02
+75ddbe7a-5764-4935-aa71-0c0489612eae,3e1cf4c3-ab16-411a-81f0-dafb09e9b8c0,styling,Cajones interiores,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.421+02,2025-08-27 16:12:38.421+02
+942d32e8-4104-4cc1-8408-a816f988999b,525059df-93fe-4e70-907a-7bdf8f187c07,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.425+02,2025-08-27 16:12:38.425+02
+181683cb-053d-4838-b94f-500ab715cd80,bcf87244-f71c-41a9-8f3a-e076c75bcad6,styling,Baño,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la entrada de la ducha",\N,2025-08-27 16:12:38.429+02,2025-08-27 16:12:38.429+02
+30ff89d3-a46b-48a8-a554-7e9f121cda99,3f96ef7d-ce18-4521-99fa-42e98a844446,styling,Salón,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá
+- Plaids sobre el lateral del sofá
+- Pieles sobre las sillas de comedor",\N,2025-08-27 16:12:38.434+02,2025-08-27 16:12:38.435+02
+18591540-8bb3-44da-93ef-244ca63ecffc,9c715f57-8fb6-48f0-af86-35e493f1bcf4,styling,Cocina encimera,\N,"- Encimera despejada con electrodomésticos enchufados en ambas esquina
+- Rollo de cocina y deco varias pegado a la pared de la isla",\N,2025-08-27 16:12:38.438+02,2025-08-27 16:12:38.438+02
+6da2fa0b-f9ff-4c11-8d3f-87f775d24b2d,69a7a766-ade4-4ce0-9f1d-48d23e32c485,styling,Cajones interiores,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.442+02,2025-08-27 16:12:38.442+02
+42d04809-72d5-4bcc-bd83-7c5ebcb2e9d1,c93f8a7a-06f6-4dcb-96e4-c88ab564f244,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.446+02,2025-08-27 16:12:38.446+02
+79a3077d-13bd-450a-83b6-aab2cc5be60c,90df837d-bb48-4779-932e-fe84faf7a71f,styling,Baño,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la entrada de la ducha",\N,2025-08-27 16:12:38.449+02,2025-08-27 16:12:38.449+02
+e7b8ffa5-9785-4efc-b3dc-08caf34e64cd,ba9a28a0-f71f-4104-b9db-7e65d48a219e,styling,Salón,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá
+- Plaids sobre el lateral del sofá
+- Pieles sobre las sillas de comedor",\N,2025-08-27 16:12:38.453+02,2025-08-27 16:12:38.453+02
+bf4bd615-c2da-4832-8b6f-59a79e08882c,bc6e1429-acab-4c2e-b9d0-0633d4dbaf64,styling,Cocina encimera,\N,"- Encimera despejada con electrodomésticos enchufados en ambas esquina
+- Rollo de cocina y deco varias pegado a la pared de la isla",\N,2025-08-27 16:12:38.456+02,2025-08-27 16:12:38.456+02
+2efdaa45-c094-4652-b5c8-d29ca1412181,02bebfc0-932c-4b57-b808-18558da1470e,styling,Cajones interiores,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.459+02,2025-08-27 16:12:38.459+02
+78022735-05e3-4f72-a28f-77abb4128cfc,3e904613-3c6c-4b21-a3d7-f4f6061e06ae,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.462+02,2025-08-27 16:12:38.462+02
+4fb5f4c4-ec88-48a3-9175-763027f2cdc1,3dcd60c4-e04b-448e-a1cc-e3d976a21547,styling,Baño,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la entrada de la ducha",\N,2025-08-27 16:12:38.464+02,2025-08-27 16:12:38.464+02
+03151718-e4cd-4eb6-a7ed-826136110de5,0df41aa4-f4aa-41bc-8b74-508c764b7532,styling,Porche,\N,"- Paella y bbq en el exterior
+- Mesa exterior despejada con sillas recogidas
+- Dos jarrones y una vela como centro de mesa
+- Velas y cenicero como centro de mesas auxiliares
+- Cojines con acento como en la imagen",\N,2025-08-27 16:12:38.467+02,2025-08-27 16:12:38.468+02
+9c8e044a-c04e-46b8-9afe-8c6028f38d1f,f25b3cfd-8cd6-4560-8c1e-37d8aa1e8926,styling,Salón,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá
+- Plaids sobre el lateral del sofá
+- Pieles sobre las sillas de comedor",\N,2025-08-27 16:12:38.471+02,2025-08-27 16:12:38.471+02
+1df11f6a-c6db-4c39-a951-dad128bdd919,d9c1aad3-bc8d-46ca-a3c7-1bc238f585f4,styling,Cocina encimera,\N,"- Encimera despejada con electrodomésticos enchufados en ambas esquina
+- Rollo de cocina y deco varias pegado a la pared de la isla",\N,2025-08-27 16:12:38.473+02,2025-08-27 16:12:38.473+02
+0a87d8ed-116d-4841-ac84-e0f6cb355918,66fd79f5-32d9-47de-a867-5606ad9d1865,styling,Cajones interiores,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.476+02,2025-08-27 16:12:38.476+02
+b7fce6d7-1726-4eb7-8dd4-ab65a24bdd65,1ce47c6c-357e-4e63-98d3-9f23870e3f4f,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.479+02,2025-08-27 16:12:38.479+02
+81dbbad0-6b79-4c39-a055-01aa530443c3,666b089f-5d25-48e2-84f9-45dd40b0aac8,styling,Baño,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la entrada de la ducha",\N,2025-08-27 16:12:38.482+02,2025-08-27 16:12:38.482+02
+9a14a7c0-4105-4b74-9e80-3e74f86a37b9,731cb6b7-ae6b-443d-a027-bfa850f55e6a,styling,Porche,\N,"- Paella y bbq en el exterior
+- Mesa exterior despejada con sillas recogidas
+- Dos jarrones y una vela como centro de mesa
+- Velas y cenicero como centro de mesas auxiliares
+- Cojines con acento como en la imagen",\N,2025-08-27 16:12:38.486+02,2025-08-27 16:12:38.486+02
+aa2a3bbf-217d-41bf-ba2d-6546656b6ea1,124f2594-71dc-4575-b26a-90c29df4d637,styling,Salón,\N,"- Disposición de los cojines como en la imagen
+- Elementos de decoración sobre las mesas de centro
+- Cortinas semiabiertas
+- Alfombra estirada y alineada con el sofá
+- Plaids sobre el lateral del sofá
+- Pieles sobre las sillas de comedor",\N,2025-08-27 16:12:38.488+02,2025-08-27 16:12:38.488+02
+6d319a81-a1ab-4537-9a40-5cbc6d9a5712,fa9e0efc-a2fc-42a7-a57d-af29c32a8258,styling,Cocina encimera,\N,"- Encimera despejada con electrodomésticos enchufados en ambas esquina
+- Rollo de cocina y deco varias pegado a la pared de la isla",\N,2025-08-27 16:12:38.491+02,2025-08-27 16:12:38.491+02
+eedebe44-eef6-49a0-9500-ab9387a0c4ba,0df77765-5c63-442c-af41-04ebc342b275,styling,Cajones interiores,\N,- Distribución de todos los cajones y gavetas de la cocina,\N,2025-08-27 16:12:38.493+02,2025-08-27 16:12:38.493+02
+66c347be-1818-4c21-b310-701f3f058621,68e3af78-e277-4d79-ae8e-158a9a83eb2c,styling,Habitaciones,\N,"- Sábanas estiradas y planchadas
+- Plaids a los pies de la cama
+- Dos toallas de los dos tamaños grandes sobre el plaid
+- Cojines con acento centrados en la cama
+- Cortinas semiabiertas",\N,2025-08-27 16:12:38.495+02,2025-08-27 16:12:38.495+02
+30c1c6fd-1430-47e1-9bce-f985c4a46272,51769a5f-68d1-4736-94f9-b27bea9727b7,styling,Baño,\N,"- Encimeras despejadas únicamente con jabonera y soporte para cepillos
+- Papel higiénico con 3 rollos
+- Jaboneras de ducha y lavabo llenas
+- Toallas de mano dobladas debajo de la encimera
+- Alfombra de baño en la entrada de la ducha",\N,2025-08-27 16:12:38.497+02,2025-08-27 16:12:38.497+02
+cf47dd3e-717b-420a-9a0b-4d019b8ab64a,823503ea-1669-4d7c-b360-69f868f0040f,styling,Porche,\N,"- Paella y bbq en el exterior
+- Mesa exterior despejada con sillas recogidas
+- Dos jarrones y una vela como centro de mesa
+- Velas y cenicero como centro de mesas auxiliares
+- Cojines con acento como en la imagen",\N,2025-08-27 16:12:38.499+02,2025-08-27 16:12:38.499+02
+f1ca6f99-4827-4252-9c7f-c309cbc6456f,e8cf8b31-c2e1-49e3-8e57-31165db37297,styling,Terraza,\N,\N,\N,2025-08-27 16:54:11.396+02,2025-08-27 16:54:11.396+02
+f546c975-6f1a-4dfb-a535-52ca6f78fdb4,4c2fca28-63a1-4cef-96fe-8bf0dfa5f370,styling,Garaje,\N,\N,\N,2025-08-27 16:54:11.411+02,2025-08-27 16:54:11.411+02
+78c7ac52-6bc6-4492-ab72-813a6c6f58f6,325f916d-45c8-4749-976d-1cabe61b9e43,styling,Terraza,\N,\N,\N,2025-08-27 16:54:11.42+02,2025-08-27 16:54:11.42+02
+c115879f-f9aa-49ad-b747-2b57ff36c2d1,f841c084-ee9a-46e2-a951-ce2e86c1aa8a,styling,Garaje,\N,\N,\N,2025-08-27 16:54:11.432+02,2025-08-27 16:54:11.432+02
