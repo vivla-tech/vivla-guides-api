@@ -40,4 +40,13 @@ export default class HomeInventoryService extends CrudService {
             ]
         });
     }
+
+    async list(query = {}, findOptions = {}) {
+        const where = { ...(findOptions.where || {}) };
+        if (query.home_id) where.home_id = query.home_id;
+        if (query.amenity_id) where.amenity_id = query.amenity_id;
+        if (query.room_id) where.room_id = query.room_id;
+        if (query.supplier_id) where.supplier_id = query.supplier_id;
+        return super.list(query, { ...findOptions, where });
+    }
 }
