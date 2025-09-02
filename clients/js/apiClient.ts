@@ -57,5 +57,7 @@ export function createApiClient(baseUrl: string) {
       request<ListResponse<any>>(`/homes/with-completeness${q(params)}`),
     listHomesCompleteness: () =>
       request<{ success: true; data: any[] }>(`/homes/completeness`),
+    listDestinations: () =>
+      request<{ success: true; data: string[] }>(`/homes/destinations`),
   };
 }

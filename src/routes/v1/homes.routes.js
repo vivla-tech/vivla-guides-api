@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { makeCrudController } from '../../controllers/factory.js';
 import CrudService from '../../services/crudService.js';
-import { Home } from '../../models/index.js';
+import { Home, sequelize } from '../../models/index.js';
 import { validate } from '../../middlewares/validate.js';
 import { idParam, paginationQuery, stringField } from '../../validators/common.js';
 import { computeHomesCompleteness } from '../../services/homeCompleteness.service.js';
@@ -45,6 +45,19 @@ router.get('/with-completeness', paginationQuery, validate, async (req, res, nex
                 totalPages: list.totalPages,
             },
         });
+    } catch (err) { return next(err); }
+});
+router.get('/destinations', async (_req, res, next) => {
+    try {
+        const rows = await Home.findAll({
+            attributes: [[sequelize.fn('DISTINCT', sequelize.col('destination')), 'destination']],
+            raw: true,
+        });
+        const destinations = rows
+            .map((r) => r.destination)
+            .filter((d) => d && String(d).trim().length > 0)
+            .sort((a, b) => String(a).localeCompare(String(b)));
+        return res.json({ success: true, data: destinations });
     } catch (err) { return next(err); }
 });
 router.get('/completeness', async (_req, res, next) => {
