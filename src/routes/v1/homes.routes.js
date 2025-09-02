@@ -11,6 +11,42 @@ const service = new CrudService(Home);
 const controller = makeCrudController(service);
 
 router.get('/', paginationQuery, validate, controller.list);
+router.get('/with-completeness', paginationQuery, validate, async (req, res, next) => {
+    try {
+        const list = await service.list(req.query);
+        const report = await computeHomesCompleteness();
+        const reportMap = new Map(report.map((r) => [r.home_id, r]));
+
+        const items = list.items.map((h) => {
+            const r = reportMap.get(h.id) || {};
+            return {
+                ...h.toJSON(),
+                completeness: r.completeness ?? 0,
+                present: r.present ?? [],
+                missing: r.missing ?? [],
+                counts: r.counts ?? {
+                    rooms: 0,
+                    technical_plans: 0,
+                    appliance_guides: 0,
+                    inventory: 0,
+                    styling_guides: 0,
+                    playbooks: 0,
+                },
+            };
+        });
+
+        return res.json({
+            success: true,
+            data: items,
+            meta: {
+                page: list.page,
+                pageSize: list.pageSize,
+                total: list.total,
+                totalPages: list.totalPages,
+            },
+        });
+    } catch (err) { return next(err); }
+});
 router.get('/completeness', async (_req, res, next) => {
     try {
         const report = await computeHomesCompleteness();

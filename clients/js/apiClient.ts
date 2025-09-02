@@ -51,5 +51,11 @@ export function createApiClient(baseUrl: string) {
         method: 'DELETE',
         body: JSON.stringify({ home_id: homeId, appliance_guide_id: guideId }),
       }),
+
+    // Homes + completeness
+    listHomesWithCompleteness: (params?: { page?: number; pageSize?: number }) =>
+      request<ListResponse<any>>(`/homes/with-completeness${q(params)}`),
+    listHomesCompleteness: () =>
+      request<{ success: true; data: any[] }>(`/homes/completeness`),
   };
 }
