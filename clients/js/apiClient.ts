@@ -38,6 +38,8 @@ export function createApiClient(baseUrl: string) {
       request<ListResponse<any>>(`/styling-guides${q({ home_id: homeId, ...params })}`),
     listPlaybooksByHome: (homeId: string, params?: { page?: number; pageSize?: number }) =>
       request<ListResponse<any>>(`/playbooks${q({ home_id: homeId, ...params })}`),
+    listRoomsByHome: (homeId: string, params?: { page?: number; pageSize?: number }) =>
+      request<ListResponse<any>>(`/rooms${q({ home_id: homeId, ...params })}`),
     listApplianceGuidesByHome: (homeId: string) =>
       request<{ success: true; data: any[] }>(`/appliance-guides/by-home/${homeId}`),
 
