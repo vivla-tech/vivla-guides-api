@@ -5,6 +5,11 @@ export default (sequelize, DataTypes) => {
         destination: { type: DataTypes.STRING },
         address: { type: DataTypes.STRING },
         main_image: { type: DataTypes.STRING },
+        // Texto largo con saltos de línea permitidos
+        access: { type: DataTypes.TEXT },
+        parking: { type: DataTypes.TEXT },
+        wifi: { type: DataTypes.TEXT },
+        alarm: { type: DataTypes.TEXT },
         created_at: { type: DataTypes.DATE, defaultValue: DataTypes.NOW },
         updated_at: { type: DataTypes.DATE, defaultValue: DataTypes.NOW },
     }, {

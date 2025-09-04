@@ -67,8 +67,29 @@ router.get('/completeness', async (_req, res, next) => {
     } catch (err) { return next(err); }
 });
 router.get('/:id', idParam, validate, controller.getById);
-router.post('/', [...stringField('name', true), ...stringField('destination'), ...stringField('address'), ...stringField('main_image')], validate, controller.create);
-router.put('/:id', [...idParam, ...stringField('name'), ...stringField('destination'), ...stringField('address'), ...stringField('main_image')], validate, controller.update);
+router.post('/', [
+    ...stringField('name', true),
+    ...stringField('destination'),
+    ...stringField('address'),
+    ...stringField('main_image'),
+    // Campos de texto largo (hasta 5000)
+    ...stringField('access', false, 5000),
+    ...stringField('parking', false, 5000),
+    ...stringField('wifi', false, 5000),
+    ...stringField('alarm', false, 5000),
+], validate, controller.create);
+router.put('/:id', [
+    ...idParam,
+    ...stringField('name'),
+    ...stringField('destination'),
+    ...stringField('address'),
+    ...stringField('main_image'),
+    // Campos de texto largo (hasta 5000)
+    ...stringField('access', false, 5000),
+    ...stringField('parking', false, 5000),
+    ...stringField('wifi', false, 5000),
+    ...stringField('alarm', false, 5000),
+], validate, controller.update);
 router.delete('/:id', idParam, validate, controller.remove);
 
 export default router;

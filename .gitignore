@@ -1,5 +1,8 @@
 node_modules
 
 .env
+*.env
+.env.*
+!.env.example
 src/config/firebase/community-guides.json
 *.csv
